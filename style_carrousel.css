@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+.content {
+  height: 400px;
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -40%);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content .slide img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.bar {
+
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 6px;
+  border-radius: 15px;
+  cursor: pointer;
+  transform: .5s ease;
+  justify-content: center;
+
+}
+
+.bar:hover {
+  background-color: rgb(22, 73, 243);
+}
+
+input {
+display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  height: 90%;
+}
+
+.slide {
+  width: 20%;
+  transition: .5s;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+} 
+
+#slide2:checked ~ .s1 {
+  margin-left: -20%;
+} 
+
+#slide3:checked ~ .s1 {
+  margin-left: -40%;
+} 
+
+#slide4:checked ~ .s1 {
+  margin-left: -60%;
+} 
+
+#slide5:checked ~ .s1 {
+  margin-left: -80%;
+} 
