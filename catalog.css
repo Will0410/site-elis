@@ -118,7 +118,7 @@ main > header {
     padding: 5px 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
-    text-align: center;
+    text-align: center
 }
 .produto p:hover {
      color: darkkhaki;    
@@ -221,7 +221,7 @@ footer .container p{
         font-size: 18px;
         margin-top: 5px;
         margin-bottom:0;
-        color: #fff;
+        color: hsl(0, 100%, 97%);
     }
 
     .mobile-menu{
@@ -378,6 +378,7 @@ footer .container p{
 
     #Contact .container .right .box .text{
         height: 150px;
+        width: 100px;
     }
 
     #Contact .container .right .box .text p {

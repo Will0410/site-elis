@@ -214,13 +214,14 @@ button:hover{
 }
 
 .menu{
-    width: 100%;
+    width: 20%;
     height: 80px;
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
     padding: 0 2%;
-    background:#C3BCB7;
+    background:#000000;
 }
 
 .logo{
@@ -691,7 +692,7 @@ footer .container p{
         font-size: 18px;
         margin-top: 5px;
         margin-bottom:0;
-        color: #fff;
+        color: #000000;
     }
 
     .mobile-menu{

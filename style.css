@@ -42,6 +42,7 @@ body{
     background: var(--dark);
     transition: all 0.5s;
     position: fixed;
+    
 }
 .navigation .logo{
     color: var(--red);
@@ -57,13 +58,14 @@ body{
     gap: 5rem;
 }
 .navigation ul li a{
-    color: var(--red);
+    color: var(--white_brown);
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
+    text-align: center;
 }
 .navigation ul li a:hover{
-    color: var(--red);
+    color: var(--dark);
 }
 .navigation i{
     cursor: pointer;
@@ -78,13 +80,13 @@ body{
     width: 28px;
     height: 3px;
     border-radius: 3px;
-    background: var(--dark);
+    background: var(--green);
     margin: 5px auto;
     transition: all 0.3s;
 }
 .menu .bar:nth-child(1),
 .menu .bar:nth-child(3){
-    background: var(--green);
+    background: var(--red);
 }
 .home{
     width: 100%;
@@ -153,9 +155,10 @@ body{
         width: 100%;
         height: 100%;
         flex-direction: column;
-        background: var(--red);
+        background: var(--dark);
         gap: -10px;
         transition: 0.3s;
+        
     }
     .nav-menu.ativo{
         right: 0;
@@ -168,7 +171,7 @@ body{
         padding: 100px 2%;
         flex-direction: column;
         text-align: center;
-
+        overflow: hidden;
         gap: 5rem;
     }
     .home .text-h4{
