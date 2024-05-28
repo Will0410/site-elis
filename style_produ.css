@@ -605,12 +605,11 @@ footer .container{
     justify-content: space-evenly;
     background: #000000;
     transform: translate(0%, 400%);
+    position: static;
+    transition: all 0.5s;
 }
 
-footer .container img{
-    width: 120px;
-    object-fit: contain;
-}
+
 
 footer .container p{
     font-weight: 600;
