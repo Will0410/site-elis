@@ -671,6 +671,7 @@ footer .container p{
         justify-content: space-between;
         flex-direction: column;
         min-height: 600px;
+        transform: translate(0%, 50%);
     }
 
     .box{
@@ -706,6 +707,7 @@ footer .container p{
         flex-direction: column;
         height: 100%;
         width: 100%;
+        position: fixed;
     }
     footer .container p{
         margin-top: 20px;
