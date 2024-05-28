@@ -705,7 +705,7 @@ footer .container p{
     footer .container{
         justify-content: space-evenly;
         flex-direction: column;
-        height: 150px;
+        height: 100%;
     }
     footer .container p{
         margin-top: 20px;
