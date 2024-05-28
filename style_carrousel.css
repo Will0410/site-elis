@@ -49,7 +49,7 @@ display: none;
 }
 
 .slides {
-  display: flex;
+  display: none;
   width: 500%;
   height: 90%;
 }
