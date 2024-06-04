@@ -39,6 +39,7 @@ html,body{
     align-items: center;
     justify-content: center;
     min-height: 95vh;
+   
 }
 
 .text-gd{
@@ -142,13 +143,13 @@ button:hover{
 .titulo{
     width: 100%;
     min-height: 250px;
-    
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 40px;
-    text-shadow: 0 0 10px #545454;
+    
     color: #000000;
     transform: translate(0%, 90%);
 }
@@ -162,7 +163,7 @@ button:hover{
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 40px;
-    text-shadow: 0 0 10px #000000;
+    
     color: #000000;
     transform: translate(0%, 0%);
     overflow: hidden;
@@ -223,6 +224,7 @@ button:hover{
     justify-content: space-between;
     padding: 0 2%;
     background:#000000;
+    
 }
 
 .logo{
@@ -293,6 +295,7 @@ body::-webkit-scrollbar-thumb {
     top: 5px;
     background: #C3BCB7;
     display: none;
+    
 }
 
 .mobile-menu i{
@@ -344,9 +347,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #About .box{
-    box-shadow: 0 5px 20px #2B2B2B;
-    background:transparent;
+    box-shadow: 0 5px 20px #000000;
+    z-index: 0;
     margin-bottom: 50px;
+
 }
 
 #About .box .text{
@@ -423,7 +427,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    box-shadow: 0 0 10px 0 #848790;
+    
     transition: 0.4s ease;
     cursor: pointer;
 }
@@ -667,6 +671,7 @@ footer .container p{
 
     .titulo{
         min-height: 150px;
+        
     }
 
     .down{
@@ -674,6 +679,7 @@ footer .container p{
         flex-direction: column;
         min-height: 600px;
         transform: translate(0%, 50%);
+       
     }
 
     .box{
@@ -698,6 +704,7 @@ footer .container p{
 
     .mobile-menu{
         display: block;
+        z-index: 99999;
     }
 
     #Contact .right img{
