@@ -156,15 +156,16 @@ button:hover{
 .titulo2{
     width: 100%;
     min-height: 250px;
-    position: relative;
+    position: static;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 40px;
-    text-shadow: 0 0 10px #545454;
+    text-shadow: 0 0 10px #000000;
     color: #000000;
     transform: translate(0%, 0%);
+    overflow: hidden;
 }
 
 
