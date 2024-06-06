@@ -27,19 +27,6 @@
 }
 
 
-.bar {
-
-  width: 150px;
-  height: 150px;
-  border: 2px solid rgb(0, 0, 0);
-  margin: 6px;
-  border-radius: 15px;
-  cursor: pointer;
-  transform: .5s ease;
-  justify-content: center;
-
-}
-
 .bar:hover {
   background-color: rgb(22, 73, 243);
 }
