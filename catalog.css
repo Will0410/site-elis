@@ -113,7 +113,7 @@ main > header {
     font-weight: 800;
 }   
 
-.produto { margin-bottom: 50px; cursor: pointer; }
+.produto { margin-bottom: 40px; cursor: pointer; }
 .produto p {
     background-color: #000000;
     color: #f0cc849c;
@@ -122,9 +122,10 @@ main > header {
     border-radius: 5px;
     text-align: center;
     object-fit: contain;
+    
 }
 .produto p:hover {
-     color: darkkhaki;    
+     color: rgb(255, 153, 0);    
 }
 
 #produtos {
@@ -133,6 +134,48 @@ main > header {
     justify-content: space-around;
     
     
+}
+
+    figure, figure img {
+        width: 310px;
+        height: 305px;
+       
+    }
+    
+
+#fig2{
+    background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
+}
+#fig2:hover{
+    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+}
+
+#fig3{
+    background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
+}
+#fig3:hover{
+    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+}
+
+#fig4{
+    background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
+}
+#fig4:hover{
+    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+}
+
+#fig5{
+    background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
+}
+#fig5:hover{
+    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+}
+
+#fig6{
+    background-image: url('./img_resized/IMG_20240319_170519_069_resized.jpg');
+}
+#fig6:hover{
+    background-image: url('./img_resized/IMG_20240319_170518_957_resized.jpg');
 }
 
 footer .container{
