@@ -7,4 +7,4 @@ setInterval( function(){
     if(counter > 5 ) {
         contador = 1;
     }
-}, 1500 );
+}, 3000 );
