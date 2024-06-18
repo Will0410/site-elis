@@ -54,14 +54,14 @@ display: none;
 }
 
 .slides {
-  display: flex;
+  
   width: 500%;
   height: 100%;
   
 }
 
 .slide {
-  width: 30%;
+  width:10%;
   transition: .6s;
 }
 
