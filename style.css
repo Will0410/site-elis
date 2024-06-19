@@ -125,6 +125,7 @@ body{
     .navigation{
         padding: 18px 20px;
         position: fixed;
+        z-index: 99999;
     }
     .menu{
         display: block;
@@ -148,10 +149,11 @@ body{
         background: var(--dark);
         gap: -10px;
         transition: 0.3s;
-        z-index: 99999;
+        z-index: 99999999;
     }
     .nav-menu.ativo{
         right: 0;
+        
     }
     .nav-item{
         margin: 16px 0;
@@ -165,6 +167,7 @@ body{
         background: var(--green);
         margin: 5px auto;
         transition: all 0.3s;
+        
     }
     .menu .bar:nth-child(1),
     .menu .bar:nth-child(3){

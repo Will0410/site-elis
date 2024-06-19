@@ -147,35 +147,35 @@ main > header {
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig2:hover{
-    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+    background-image: url('img_resized/image\ \(1\)_resized.jpg');
 }
 
 #fig3{
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig3:hover{
-    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+    background-image: url('./img_resized/image\ \(2\)_resized.jpg');
 }
 
 #fig4{
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig4:hover{
-    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+    background-image: url('./img_resized/image_resized.jpg');
 }
 
 #fig5{
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig5:hover{
-    background-image: url('./img_resized/D_NQ_NP_888397-MLB72023907736_102023-O_resized.webp');
+    background-image: url('./img_resized/image\ \(3\)_resized.jpg');
 }
 
 #fig6{
-    background-image: url('./img_resized/IMG_20240319_170519_069_resized.jpg');
+    background-image: url('./img_resized/IMG_20240319_170518_957_resized.jpg');
 }
 #fig6:hover{
-    background-image: url('./img_resized/IMG_20240319_170518_957_resized.jpg');
+    background-image: url('./img_resized/IMG_20240319_170519_069_resized.jpg');
 }
 
 footer .container{
