@@ -27,7 +27,7 @@ html {
 
 body {
     
-    color: var(--red);
+    color: var(--dark);
     background: var(--dark);
     justify-content: center;
     background-color: #00cf80;
@@ -296,7 +296,7 @@ footer .container p{
     footer .container{
         justify-content: space-evenly;
         flex-direction: column;
-        height: 150px;
+        height: 200px;
     }
     footer .container p{
         margin-top: 20px;

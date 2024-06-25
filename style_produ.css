@@ -715,7 +715,7 @@ footer .container p{
     footer .container{
         justify-content: space-evenly;
         flex-direction: column;
-        height: 150px;
+        height: 200px;
        
       
     }

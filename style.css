@@ -37,7 +37,7 @@ body{
     width: 100%;
     background: var(--dark);
     transition: all 0.5s;
-    position: fixed;
+    position: absolute;
     
 }
 .navigation .logo{

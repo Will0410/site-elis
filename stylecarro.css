@@ -63,7 +63,7 @@ body {
 }
 
 .container-slide {
-  max-width: 80rem;
+  max-width: 100rem;
   padding: 0 1rem;
   margin: 0 auto;
   transform: translate(0%, -30%);
