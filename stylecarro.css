@@ -62,10 +62,11 @@ body {
 
 }
 
-.container {
+.container-slide {
   max-width: 80rem;
   padding: 0 1rem;
   margin: 0 auto;
+  transform: translate(0%, -30%);
 }
 
 .text-center {

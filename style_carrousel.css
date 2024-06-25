@@ -10,13 +10,14 @@ body {
 .content {
   height: 500px;
   width: 700px;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
-  
+ position: fixed;
   top: 200%;
   left: 50%;
   transform: translate(60%, 0%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  
 }
 
 .content .slide img {
