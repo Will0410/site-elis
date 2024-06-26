@@ -159,28 +159,28 @@ main > header {
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig2:hover{
-    background-image: url('img_resized/image\ \(1\)_resized.jpg');
+    background-image: url('image\ \(1\)_resized.jpg');
 }
 
 #fig3{
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig3:hover{
-    background-image: url('./img_resized/image\ \(2\)_resized.jpg');
+    background-image: url('./image\ \(2\)_resized\ \(1\).jpg');
 }
 
 #fig4{
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig4:hover{
-    background-image: url('./img_resized/image_resized.jpg');
+    background-image: url('image\ \(3\)_resized.jpg');
 }
 
 #fig5{
     background-image: url('./img_resized/IMG_20231007_140036_747_resized.jpg');
 }
 #fig5:hover{
-    background-image: url('./img_resized/image\ \(3\)_resized.jpg' );
+    background-image: url('IMG_20230713_181918_289_resized_resized.jpg' );
     
 }
 
