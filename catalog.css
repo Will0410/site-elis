@@ -30,7 +30,6 @@ body {
     color: var(--dark);
     background: var(--dark);
     justify-content: center;
-    background-color: #00cf80;
 }
 
 #container {
