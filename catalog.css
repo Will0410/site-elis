@@ -100,7 +100,7 @@ nav ul {
 
 nav ul li {
     color: #000000;
-    border-right: 1px solid var(--red);
+    
     display: inline-block;
 }
 
