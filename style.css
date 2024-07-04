@@ -36,7 +36,7 @@ body{
     width: 100%;
     background: var(--dark);
     transition: all 0.5s;
-    position: absolute;
+    position: unset;
     
 }
 .navigation .logo{
@@ -87,7 +87,7 @@ body{
 .home-text .text-h4{
     font-size: 1.5rem;
     color: var(--white_brow);
-    margin-bottom: 1rem;
+    
 }
 .home-text .text-h1{
     font-size: 4rem;
@@ -102,6 +102,7 @@ body{
     color: var(--dark);
 }
 .home-btn{
+    margin-top: 100px;
     padding: 15px 45px;
     background: var(--green);
     color: var(--dark);
