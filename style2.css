@@ -51,6 +51,7 @@ body{
     color: var(--dark);
     font-size: 1.7rem;
     font-weight: 600;
+    border-radius: 50px;
 }
 .logo span{
     color: var(--red);
