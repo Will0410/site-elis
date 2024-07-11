@@ -140,12 +140,12 @@ footer .container p{
 
     .mapBox{
         position: relative;
-        width: 500px;
+        width: 400px;
         height: 550px;
         background: #cecece;
-        margin-left: 450px;
+        margin-left: 115px;
         border-radius: 50px;
-        transform: translate(-10%, 0%);
+        transform: translate(-30%, 0%);
     }
 
     

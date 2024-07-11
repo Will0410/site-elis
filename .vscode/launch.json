@@ -7,9 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "c:\\Users\\willi.DESKTOP-S10N9GR\\OneDrive\\Área de Trabalho\\site Elis\\index.html",
-            "webRoot": "${workspaceFolder}"
+            "name": "Open index.html",
+            "file": "c:\\Users\\willi.DESKTOP-S10N9GR\\OneDrive\\Área de Trabalho\\site elis\\index.html"
         }
     ]
 }
