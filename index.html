@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_produ.css">
    <link rel="stylesheet" href="stylecarro.css">
+   <link rel="stylesheet" href="cookies.css">
    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -59,13 +60,24 @@
         
         
         <!-- Home Section -->
-        
+        <div class="cookies-container">
+          <div class="cookies-content">
+            <p>Permito o uso de cookies para:</p>
+            <div class="cookies-pref">
+              <label><input type="checkbox" checked data-function="analytics">Análise de Uso</label>
+              <label><input type="checkbox" checked data-function="marketing">Marketing</label>
+            </div>
+            <button class="cookies-save">Salvar e Continuar</button>
+          </div>
+        </div>
+        <script src="./cookies.js"></script>
+      </body>
         <section id="home" class="parallax-section">
              <div class="container">
                   <div class="row">
         
                        <div class="col-md-6 col-sm-6">
-                            <div class="foto-de-perfil"><img src="img_resized/foro10_cortada.jfif" alt="" srcset=""></div>
+                            <div class="foto-de-perfil"><img src="img_resized/foro10_cortada.jfif" alt="" srcset="" width="500" margin></div>
                        </div>
         
                        <div class="col-md-6 col-sm-6">
@@ -320,6 +332,7 @@ Com vasta experiência em diversas áreas do direito, incluindo direito civil, d
           <script src="js/jquery.parallax.js"></script>
           <script src="js/smoothscroll.js"></script>
           <script src="js/wow.min.js"></script>
+          <script src="cookies.js"></script>
           <script src="js/custom.js"></script>
    <script>
     var btn = document.querySelector("#back-to-top");

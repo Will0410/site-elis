@@ -180,6 +180,10 @@ footer {
   background: #00259c;
 }
 
+.foto-de-perfil{
+  margin-left: 40px;
+  margin-top: 40px;
+}
 
 
 /*---------------------------------------
@@ -664,6 +668,11 @@ footer {
     line-height: 18px;
   }
 
+  .foto-de-perfil{
+    margin-left: 40px;
+    margin-top: 115px;
+  }
+
   #home .home-thumb {
     height: auto;
     padding-top: 32px;
@@ -691,13 +700,23 @@ footer {
   .background-image {
     position: relative;
     min-height: 65vh;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 350px;
   }
+  
 }
 
 @media only screen and (max-width: 1024px) {
   .section-title {
     padding-bottom: 12px;
   }
+
+  .foto-de-perfil{
+    margin-left: 40px;
+    margin-top: 115px;
+  }
+
 
   footer {
     padding: 40px 0;
