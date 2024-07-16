@@ -41,7 +41,7 @@ body{
     flex-direction: column;
     margin-top: 100px;
     text-shadow: 0 2px 15px #ffaa00;
-    color: #000000;
+    color: #ecdfb2;
     transform: translate(0%, 0%);
     overflow: hidden;
 }
@@ -140,10 +140,10 @@ footer .container p{
 
     .mapBox{
         position: relative;
-        width: 400px;
+        width: 370px;
         height: 550px;
         background: #cecece;
-        margin-left: 115px;
+        margin-left: 130px;
         border-radius: 50px;
         transform: translate(-30%, 0%);
     }
