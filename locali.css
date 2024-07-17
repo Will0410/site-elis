@@ -149,4 +149,15 @@ footer .container p{
     }
 
     
+}@media (max-width:410px) {
+
+    .mapBox{
+        position: relative;
+        width: 370px;
+        height: 550px;
+        background: #cecece;
+        margin-left: 130px;
+        border-radius: 50px;
+        transform: translate(-30%, 0%);
+    }
 }
