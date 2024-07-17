@@ -7,7 +7,7 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-	background: #b16809;
+	background: #af9469;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 	font-weight: 300;
@@ -144,7 +144,7 @@ footer {
 
 #experience,
 #education {
-  background: #000d36e1;
+  background: #af9469;
 }
 
 .background-image {
@@ -420,7 +420,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #012e5a;
+  background: #56070c;
 }
 
 #service p {
