@@ -31,7 +31,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2px 5px;
+    padding: 18px 40px;
     box-shadow: 0 0.1rem 0.5rem #c27501;
     width: 100%;
     background: var(--dark);
@@ -43,12 +43,14 @@ body{
     color: var(--red);
     font-size: 1.7rem;
     font-weight: 600;
-    
+   transform: calc();
+
 }
 .logo span{
     color: var(--red);
-   
+  
 }
+
 .navigation ul{
     display: flex;
     align-items: center;

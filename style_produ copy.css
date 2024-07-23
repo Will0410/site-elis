@@ -229,15 +229,14 @@ button:hover{
 }
 
 .logo{
-    background: url('image/logo-roupa.png') no-repeat;
     background-size: contain;
     width: 130px;
     height: 80px;
     position: relative;
-    top: 20px;
+    top: -7px;
     z-index: 9;
+    margin-right: 7px;
 }
-
 #back-to-top {
     position: fixed;
     bottom: 2px;

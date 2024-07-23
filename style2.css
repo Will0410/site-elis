@@ -39,13 +39,14 @@ body{
     
 }
 .logo{
-    background: url('img_resized/IMG-20240414-WA0011 (1).png') no-repeat;
+    background: url('img_resized/logos.png') no-repeat;
     background-size: contain;
-    width: 130px;
-    height: 80px;
+    width: 180px;
+    height: 100px;
     position: relative;
-    top: 5px;
+    top: 0px;
     z-index: 9;
+    margin-right: 7px;
 }
 .navigation2 .logo{
     color: var(--dark);
