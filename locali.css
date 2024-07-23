@@ -160,4 +160,69 @@ footer .container p{
         border-radius: 50px;
         transform: translate(-30%, 0%);
     }
+}@media (max-width:450px) {
+
+    .mapBox{
+        position: relative;
+        width: 370px;
+        height: 500px;
+        background: #cecece;
+        margin-left: 145px;
+        border-radius: 50px;
+        transform: translate(-30%, 0%);
+        margin-top: -80px;
+    }
+    @media (width:375px) {
+
+        .mapBox{
+            position: relative;
+            width: 300px;
+            height: 450px;
+            background: #cecece;
+            margin-left: 130px;
+            border-radius: 50px;
+            transform: translate(-30%, 0%);
+            margin-top: -80px;
+        }
+    }
+    @media (width:390px) {
+
+        .mapBox{
+            position: relative;
+            width: 300px;
+            height: 450px;
+            background: #cecece;
+            margin-left: 130px;
+            border-radius: 50px;
+            transform: translate(-30%, 0%);
+            margin-top: -80px;
+        }
+    }
+    @media (width:360px) {
+
+        .mapBox{
+            position: relative;
+            width: 300px;
+            height: 450px;
+            background: #cecece;
+            margin-left: 120px;
+            border-radius: 50px;
+            transform: translate(-30%, 0%);
+            margin-top: -80px;
+        }
+    }
+    @media (width:820px) {
+
+        .mapBox{
+            position: relative;
+            width: 300px;
+            height: 450px;
+            background: #cecece;
+            margin-left: 130px;
+            border-radius: 50px;
+            transform: translate(-30%, 0%);
+            margin-top: -80px;
+        }
+    }
 }
+
