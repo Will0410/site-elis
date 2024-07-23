@@ -169,7 +169,7 @@ footer {
 }
 
 .bg-yellow {
-  background: #880202b0;
+  background: #ebc992;
 }
 
 .bg-white {
@@ -177,7 +177,7 @@ footer {
 }
 
 .bg-dark {
-  background: #002855;
+  background: #cfa154;
 }
 
 .foto-de-perfil{
@@ -420,7 +420,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #56070c;
+  background: #ac7c4c;
 }
 
 #service p {
@@ -466,7 +466,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #684000;
+  background: #f1e2d7;
 }
 
 #education .education-img {
@@ -485,6 +485,9 @@ a:hover, a:active, a:focus {
 #education small {
   color: #b88a00;
   font-weight: bold;
+}
+.media-body{
+  color: #000;
 }
 
 
