@@ -646,6 +646,16 @@ footer .container p{
     .text-title{
         font-size: 18px;
     }
+    .logo{
+  
+        background-size: contain;
+        width: 130px;
+        height: 0px;
+        position: relative;
+        top: -45px;
+        margin-right: 7px;
+        z-index: 9;
+    }
     
 }
 
@@ -682,6 +692,17 @@ footer .container p{
         min-height: 600px;
         transform: translate(0%, 50%);
        
+    }
+
+    .logo{
+  
+        background-size: contain;
+        width: 130px;
+        height: 0px;
+        position: relative;
+        top: -45px;
+        margin-right: 7px;
+        z-index: 9;
     }
 
     .box{
@@ -732,6 +753,17 @@ footer .container p{
         width: 100%;
         min-height:auto;
         padding: 0 2%;
+    }
+
+    .logo{
+  
+        background-size: contain;
+        width: 130px;
+        height: 0px;
+        position: relative;
+        top: -59px;
+        margin-right: 7px;
+        z-index: 9;
     }
 
     .right{
@@ -872,5 +904,15 @@ footer .container p{
     
     header .right .imagem{
         width: 80%;
+    }
+    .logo{
+  
+        background-size: contain;
+        width: 130px;
+        height: 0px;
+        position: relative;
+        top: -59px;
+        margin-right: 7px;
+        z-index: 9;
     }
 }
