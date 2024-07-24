@@ -213,6 +213,7 @@ footer .container p{
     }
     @media (width:820px) {
 
+        
         .mapBox{
             position: relative;
             width: 300px;
