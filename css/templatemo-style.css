@@ -65,7 +65,7 @@ h5 {
 }
 
 strong {
-  color: #e79e00e1;
+  color: #5f0000;
   font-weight: normal;
 }
 
@@ -173,7 +173,7 @@ footer {
 }
 
 .bg-white {
-  background: #b87d00;
+  background: #9e5050;
 }
 
 .bg-dark {
@@ -429,7 +429,7 @@ a:hover, a:active, a:focus {
 }
 
 #service .service-thumb {
-  padding: 52px 22px 52px 22px;
+  padding: 52px 22px 52px 30px;
 }
 
 #service .service-thumb .fa {
