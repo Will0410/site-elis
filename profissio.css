@@ -33,6 +33,17 @@ body{
     border: 0 solid rgba(0, 0, 0, 0.125);
     
 }
+.logo2{
+    background: url('img_resized/logos.png') no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 100px;
+    position: relative;
+    top: -25px;
+    z-index: 9;
+    margin-right: 7px;
+    
+}
 
 .card-body {
     flex: 1 1 auto;
